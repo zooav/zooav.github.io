@@ -1,0 +1,39 @@
+h2.color{ color: cadetblue;}
+
+label{
+   background-color: darkgrey;
+   min-height: 2 em;
+   max-height:5em;
+   min-width: 2em;
+   max-width: 5em;
+   margin:1em 1em; 
+   padding: 10px 10px
+}
+button{
+    background-color: darkgrey;
+    min-height: 2 em;
+    max-height:5em;
+    min-width: 2em;
+    max-width: 5em;
+    margin:1em 1em; 
+    padding: 10px 10px
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input.warningN{
+    border-color: red;
+    border-width: 0.5px
+}
+input.greenN{
+    border-color: green;
+    border-width: 0.5px
+}
